@@ -34,15 +34,15 @@ class App extends Component {
 
       {this.state.show && <div>{ this.state.partDescription }</div>}
 
-      <img className="part1" src={part1} onMouseOver={() => this.toggle("part1")} onClick={this.showExercise("https://www.w3schools.com")}/>
-      <img className="part2" src={part2} onMouseOver={() => this.toggle("part2")} onClick={this.showExercise("link2")}/>
-      <img className="part3" src={part3} onMouseOver={() => this.toggle("part3")} onClick={this.showExercise("link")}/>
-      <img className="part4" src={part4} onMouseOver={() => this.toggle("part4")} onClick={this.showExercise("link")}/>      
+      <img className="part1" src={part1} onMouseOver={() => this.toggle("wrist workout")} onClick={this.showExercise("https://www.youtube.com/watch?v=TTVmBZQPDiY")}/>
+      <img className="part2" src={part2} onMouseOver={() => this.toggle("arm workout")} onClick={this.showExercise("https://www.youtube.com/watch?v=j64BBgBGNIU")}/>
+      <img className="part3" src={part3} onMouseOver={() => this.toggle("arm workout")} onClick={this.showExercise("https://www.youtube.com/watch?v=j64BBgBGNIU")}/>
+      <img className="part4" src={part4} onMouseOver={() => this.toggle("wrist workout")} onClick={this.showExercise("https://www.youtube.com/watch?v=TTVmBZQPDiY")}/>      
       <br/>
-      <img className="part5" src={part5} onMouseOver={() => this.toggle("part5")} onClick={this.showExercise("link")}/>
-      <img className="part6" src={part6} onMouseOver={() => this.toggle("part6")} onClick={this.showExercise("link")}/>
-      <img className="part7" src={part7} onMouseOver={() => this.toggle("part7")} onClick={this.showExercise("link")}/>
-      <img className="part8" src={part8} onMouseOver={() => this.toggle("part8")} onClick={this.showExercise("link")}/>
+      <img className="part5" src={part5} onMouseOver={() => this.toggle("hands workout")} onClick={this.showExercise("https://www.youtube.com/watch?v=TTVmBZQPDiY")}/>
+      <img className="part6" src={part6} onMouseOver={() => this.toggle("legs workout")} onClick={this.showExercise("https://www.youtube.com/watch?v=EUruBzhv7Kk")}/>
+      <img className="part7" src={part7} onMouseOver={() => this.toggle("legs workout")} onClick={this.showExercise("https://www.youtube.com/watch?v=EUruBzhv7Kk")}/>
+      <img className="part8" src={part8} onMouseOver={() => this.toggle("hands workout")} onClick={this.showExercise("https://www.youtube.com/watch?v=TTVmBZQPDiY")}/>
     </div>
     );
   }
